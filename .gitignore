@@ -17,5 +17,7 @@ publish
 .working
 .publish
 
+ouptuts
 target
+
 BenchmarkDotNet.Artifacts
