@@ -23,7 +23,6 @@ namespace ExcelWriter {
                     var cellChar = (char)headRange.ElementAt(ci);
                     var value = row[heads.ElementAt(ci)];
                     var cell = $"{cellChar}{i}";
-                    Console.WriteLine(cell);
                     ws.Cell(cell).Value = value;
                 }
             }
