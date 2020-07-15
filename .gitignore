@@ -22,3 +22,5 @@ outputs
 target
 
 BenchmarkDotNet.Artifacts
+
+__output__

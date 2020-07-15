@@ -7,10 +7,10 @@ namespace ExcelWriter.Tests {
         [Fact]
         public void Test1() {
             var head = new[] {
+                "D",
                 "A",
                 "B",
                 "C",
-                "D"
             };
             var writer = new Writer();
             var data = new List<Dictionary<string, object>> {
@@ -28,7 +28,7 @@ namespace ExcelWriter.Tests {
                 }
             };
 
-            writer.Write(head, data, "../../../../../outputs/A.xlsx");
+            writer.Write(head, data, "../../../../../__output__/A.xlsx");
         }
     }
 }
